@@ -1,0 +1,45 @@
+/* Pokemon Picture */
+.pokemon-container {
+    height: 200px;
+}
+img {
+    height: 200px;
+    position: absolute;
+    right: 32%;
+    user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+}
+.hidden-pokemon {
+    filter: brightness(0);
+}
+
+/* Pokemon Options */
+ul {
+    list-style-type: none;
+}
+li {
+    border-radius: 5px;
+    border: 3px solid #3761a8;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 250px;
+    text-align: center;
+    height: 35px;
+    color: black !important;
+    background-color: #feca1b;
+    font-weight: bold;
+    border-color: #3761a8;
+}
+
+li:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    background-color: #c1060c;
+}
+
+.options-container {
+    display: flex;
+    justify-content: center;
+}
